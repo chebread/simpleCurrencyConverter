@@ -3,6 +3,7 @@ from datetime import *
 
 clock = datetime.now()
 ymd = "%s 년 %s 월 %s 일"%(clock.year, clock.month, clock.day)
+_usd_ = 1126.97
 def Conversion(v, c):
     return v * c # 환율
 
